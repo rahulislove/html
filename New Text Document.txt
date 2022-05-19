@@ -1,1 +1,60 @@
-dasdasdasdasdas
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //for loop
+       const cars = ['audi','mercendes','rover','volvo'];
+        for(let x = 0; x < 4; x++){
+            console.log(cars[3])
+        }
+    //for in loop
+    const lol = ['audi','mercendes','rover','volvo'];
+        for(let x in lol){
+            console.log(lol[3])
+        }
+    //object 
+     const lawra = {fname:'Rahul',lname:'madarchod',age:'20'}
+      for(let x in lawra){
+          console.log(lawra[x]);
+      }
+    //for each
+    const baal = ['audi','mercendes','rover','volvo'];
+        baal.forEach(function(item,index){
+           console.log(item)
+        })
+    //while loop
+    const lund = ['audi','mercendes','rover','volvo'];
+       let x = 0;
+       while(x < 4){
+           console.log(lund[x])
+           x++;
+       }        
+    //case
+      let longdata;
+      switch(x=2){
+          case 1:
+          longdata = 'one'
+          break;
+          case 2:
+          longdata = 'two'
+          break;
+          case 10:
+          longdata = 'ten'  
+      } 
+        console.log(longdata) 
+    //map
+     const mans = new Map([
+         ['rahul',20],
+         ['akash',19],
+         ['loltay',21],
+     ]);
+      console.log(mans)   
+    </script>
+</body>
+</html>
